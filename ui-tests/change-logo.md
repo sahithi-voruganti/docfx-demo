@@ -1,0 +1,1 @@
+Explain about Change Logo functionality testing process

@@ -1,0 +1,1 @@
+Explain about Create New Device functionality testing process

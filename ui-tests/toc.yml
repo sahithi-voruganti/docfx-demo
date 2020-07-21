@@ -1,0 +1,9 @@
+
+- name: Introduction
+  href: intro.md
+- name: Create New Device
+  href: create-new-device.md
+- name: Change Logo
+  href: change-logo.md
+- name: Change Solution name
+  href: change-solution-name.md
