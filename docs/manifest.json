@@ -1,0 +1,844 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Wiki Research/docfx/Demo",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.DeviceGroupsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.DeviceGroupsController.html",
+          "hash": "V+KeiILHs8GvD5oaXYtc5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.RulesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.RulesController.html",
+          "hash": "PQhRB7Hj1cm5sEMCW5neyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.StatusController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.StatusController.html",
+          "hash": "hExPtFrG9/qJBR4QfqtVPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.html",
+          "hash": "+x8IJQl4pxhKCokkCUtWqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.DependencyResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.DependencyResolution.html",
+          "hash": "/7EMXY1bO6rSCGrLywvoMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Program.html",
+          "hash": "oD7zs0YsHgKQJv6DCHELzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Startup.html",
+          "hash": "QtYjR1QjaX2ke1kSkGyJTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/asa-manager/Mmm.Iot.AsaManager.WebService.html",
+          "hash": "FHd0Mtwqg3SEiek2MCoh9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.ConfigTypesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.ConfigTypesController.html",
+          "hash": "SmiSLo+Vs85JVBm8xUhh5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.DeviceGroupController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.DeviceGroupController.html",
+          "hash": "QJVgEmMsMyrvg74TZJl0dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.PackagesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.PackagesController.html",
+          "hash": "T7S4GMFOUdzp9EqxwbbRmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.SeedController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.SeedController.html",
+          "hash": "RIqrqfI6Tf06g33v4/n/ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.SolutionSettingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.SolutionSettingsController.html",
+          "hash": "u0CGkzXSBU8kN6pzplsBsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.StatusController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.StatusController.html",
+          "hash": "vWJnoNBq58JjXPaoWF1SNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.UserSettingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.UserSettingsController.html",
+          "hash": "pq9S7Zi/gl1WqklIiQvfVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Controllers.html",
+          "hash": "jUTY41nAfLw0y0YuVVQ6TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.DependencyResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.DependencyResolution.html",
+          "hash": "h50ciLlhwq5fuD4HQlrRqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Helpers.PackagesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Helpers.PackagesHelper.html",
+          "hash": "mjPAGr85y9+1VX98E/e4iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Helpers.html",
+          "hash": "vccCJ4VctiSvDFGL12b76A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsApiModel.html",
+          "hash": "t9PqvivYWjt2kyxvqWQ80Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsListApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsListApiModel.html",
+          "hash": "eZxwNSvtLDyS6Ng8G4Vvww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.ConfigTypeListApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.ConfigTypeListApiModel.html",
+          "hash": "xd35/n1hTVna1otuzhriSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupApiModel.html",
+          "hash": "CWxUZ6OUZywmgJFktnQK5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupListApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupListApiModel.html",
+          "hash": "krfinXPc6SiUbjBtScxWpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.PackageApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.PackageApiModel.html",
+          "hash": "zuz+hLVSNpL5iPoZRhsvXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.PackageListApiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.PackageListApiModel.html",
+          "hash": "5khhdAQpGLCZ7Oxhf3jCfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Models.html",
+          "hash": "z/+qqoXy4RXkQyVQZWv/wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Program.html",
+          "hash": "P9D+kQC1X/lZRz0ZQ4gKSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.Startup.html",
+          "hash": "Yvk12hpm8HAzQzXpmk/gNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/config/Mmm.Iot.Config.WebService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/config/Mmm.Iot.Config.WebService.html",
+          "hash": "P+dtjJMYiYFl5TmNOZdZrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "koXNBsN7tf94QzuCI3BycA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "UrGCDEGdsEyMXGw5EAKCbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "WDj7zsR4b12eq9ShATbQ9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/3M_wordmark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/3M_wordmark.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "JJhJZ58PjG0kRGcTngY3+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "overview.html",
+          "hash": "r9vPmpF/eUIGMkTfZoV10A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/crsl-documentation/functional-tests/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/functional-tests/intro.html",
+          "hash": "U7CO4NuN9akdAF6Ig7fbDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/crsl-documentation/functional-tests/ui-tests/change-logo.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/functional-tests/ui-tests/change-logo.html",
+          "hash": "T3xf43bkhu9yuh9yUaAXMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/crsl-documentation/functional-tests/ui-tests/change-solution-name.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/functional-tests/ui-tests/change-solution-name.html",
+          "hash": "lOiPCsC4StM8jcZzjpweDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/crsl-documentation/functional-tests/ui-tests/create-new-device.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/functional-tests/ui-tests/create-new-device.html",
+          "hash": "pi+nU99Pv2y9HCKoag+CpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/crsl-documentation/functional-tests/ui-tests/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/functional-tests/ui-tests/intro.html",
+          "hash": "9nmPuio0rc5Rfd1a7OEPpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/crsl-documentation/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/intro.html",
+          "hash": "Nx44ourRdsijHfyYWGfhMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "src/crsl-documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "src/crsl-documentation/toc.html",
+          "hash": "aszqyoZAWjUHU1+7EXFFvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ynYOlk/lkFpzQxnWaR+HlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/ConfigService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/ConfigService.html",
+          "hash": "dCet9TjWiRiEZO3yXZQzKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/DeviceSimulationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/DeviceSimulationService.html",
+          "hash": "bzVuX5niIRLPtEryNxkntA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/DevicesGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/DevicesGrid.html",
+          "hash": "4D0CpdpP6Yt8mkjxTIcftQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/DiagnosticsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/DiagnosticsService.html",
+          "hash": "fv/x/HOY3duqR0IWzbv/Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/ExampleGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/ExampleGrid.html",
+          "hash": "dRo5f68guFOPaGZhxfcguA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/ExampleService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/ExampleService.html",
+          "hash": "ZckQKbR+4G5gq95Qc5Zsig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/HttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/HttpClient.html",
+          "hash": "rhjxLCOUrCMUUnoqPkkpqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/IdentityGatewayService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/IdentityGatewayService.html",
+          "hash": "WPJ029n4YwBPlqjr18H83Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/IoTHubManagerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/IoTHubManagerService.html",
+          "hash": "flFz3EEnCRj2PlQ+FZK99Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Link#Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/Link#Link.html",
+          "hash": "EPx+ar376OuerV5TJHNKHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/Link.html",
+          "hash": "aQkO63g08Gl4jpAyRCligw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/LinkedComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/LinkedComponent.html",
+          "hash": "APa0vLiui5rMK0V7OFVYjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/PcsGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/PcsGrid.html",
+          "hash": "0iFmMft5ij/UBWEw8M3Inw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Shell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/Shell.html",
+          "hash": "AorLxaSA3KNRP3T7oIp/Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/TelemetryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/TelemetryService.html",
+          "hash": "GzOZTsViG179Xl479t3adQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/UsersGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/UsersGrid.html",
+          "hash": "+az3xw2y+coe4meHEHeCnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/Validator.html",
+          "hash": "gYOSTWsPWO+PC00TYFbe3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "yml/index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/index.html",
+          "hash": "belHLgKAj6gGsk3ZV7Wifg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "yml/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "yml/toc.html",
+          "hash": "D11Rx6XZaQzefzQJQe8Dig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 9
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 30
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "UniversalReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor UniversalReferenceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
