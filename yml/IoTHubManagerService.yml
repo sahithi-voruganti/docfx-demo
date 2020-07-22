@@ -1,0 +1,215 @@
+### YamlMime:UniversalReference
+items:
+  - uid: IoTHubManagerService
+    id: IoTHubManagerService
+    name: IoTHubManagerService
+    summary: Contains methods for calling the Device service
+    fullName: IoTHubManagerService
+    type: Class
+    children:
+      - IoTHubManagerService.#ctor
+      - IoTHubManagerService.getDevices
+      - IoTHubManagerService.getModulesFields
+      - IoTHubManagerService.getJobs
+      - IoTHubManagerService.submitJob
+      - IoTHubManagerService.getJobStatus
+      - IoTHubManagerService.provisionDevice
+      - IoTHubManagerService.deleteDevice
+      - IoTHubManagerService.getDeviceProperties
+      - IoTHubManagerService.getDeployments
+      - IoTHubManagerService.getDeployment
+      - IoTHubManagerService.getModulesByQuery
+      - IoTHubManagerService.getDevicesByQuery
+      - IoTHubManagerService.createDeployment
+      - IoTHubManagerService.deleteDeployment
+      - IoTHubManagerService.getDeploymentDetails
+      - IoTHubManagerService.sendCloudToDeviceMessages
+    langs:
+      - js
+  - id: IoTHubManagerService.#ctor
+    uid: IoTHubManagerService.#ctor
+    parent: IoTHubManagerService
+    name: IoTHubManagerService()
+    fullName: IoTHubManagerService.IoTHubManagerService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new IoTHubManagerService()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getDevices
+    id: IoTHubManagerService.getDevices
+    parent: IoTHubManagerService
+    name: getDevices()
+    summary: Returns a list of devices
+    fullName: IoTHubManagerService.getDevices()
+    type: Function
+    syntax:
+      content: function getDevices()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getModulesFields
+    id: IoTHubManagerService.getModulesFields
+    parent: IoTHubManagerService
+    name: getModulesFields()
+    summary: Returns a list of all modules message schema fields
+    fullName: IoTHubManagerService.getModulesFields()
+    type: Function
+    syntax:
+      content: function getModulesFields()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getJobs
+    id: IoTHubManagerService.getJobs
+    parent: IoTHubManagerService
+    name: getJobs()
+    summary: Returns a list of all jobs
+    fullName: IoTHubManagerService.getJobs()
+    type: Function
+    syntax:
+      content: function getJobs()
+    langs:
+      - js
+  - uid: IoTHubManagerService.submitJob
+    id: IoTHubManagerService.submitJob
+    parent: IoTHubManagerService
+    name: submitJob()
+    summary: Submits a job
+    fullName: IoTHubManagerService.submitJob()
+    type: Function
+    syntax:
+      content: function submitJob()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getJobStatus
+    id: IoTHubManagerService.getJobStatus
+    parent: IoTHubManagerService
+    name: getJobStatus()
+    summary: Get returns the status details for a particular job
+    fullName: IoTHubManagerService.getJobStatus()
+    type: Function
+    syntax:
+      content: function getJobStatus()
+    langs:
+      - js
+  - uid: IoTHubManagerService.provisionDevice
+    id: IoTHubManagerService.provisionDevice
+    parent: IoTHubManagerService
+    name: provisionDevice()
+    summary: Provisions a device
+    fullName: IoTHubManagerService.provisionDevice()
+    type: Function
+    syntax:
+      content: function provisionDevice()
+    langs:
+      - js
+  - uid: IoTHubManagerService.deleteDevice
+    id: IoTHubManagerService.deleteDevice
+    parent: IoTHubManagerService
+    name: deleteDevice()
+    summary: Deletes a device
+    fullName: IoTHubManagerService.deleteDevice()
+    type: Function
+    syntax:
+      content: function deleteDevice()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getDeviceProperties
+    id: IoTHubManagerService.getDeviceProperties
+    parent: IoTHubManagerService
+    name: getDeviceProperties()
+    summary: Returns the account's device group filters
+    fullName: IoTHubManagerService.getDeviceProperties()
+    type: Function
+    syntax:
+      content: function getDeviceProperties()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getDeployments
+    id: IoTHubManagerService.getDeployments
+    parent: IoTHubManagerService
+    name: getDeployments()
+    summary: Returns deployments
+    fullName: IoTHubManagerService.getDeployments()
+    type: Function
+    syntax:
+      content: function getDeployments()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getDeployment
+    id: IoTHubManagerService.getDeployment
+    parent: IoTHubManagerService
+    name: getDeployment()
+    summary: Returns deployment
+    fullName: IoTHubManagerService.getDeployment()
+    type: Function
+    syntax:
+      content: function getDeployment()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getModulesByQuery
+    id: IoTHubManagerService.getModulesByQuery
+    parent: IoTHubManagerService
+    name: getModulesByQuery()
+    summary: Queries EdgeAgent
+    fullName: IoTHubManagerService.getModulesByQuery()
+    type: Function
+    syntax:
+      content: function getModulesByQuery()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getDevicesByQuery
+    id: IoTHubManagerService.getDevicesByQuery
+    parent: IoTHubManagerService
+    name: getDevicesByQuery()
+    summary: Queries Devices
+    fullName: IoTHubManagerService.getDevicesByQuery()
+    type: Function
+    syntax:
+      content: function getDevicesByQuery()
+    langs:
+      - js
+  - uid: IoTHubManagerService.createDeployment
+    id: IoTHubManagerService.createDeployment
+    parent: IoTHubManagerService
+    name: createDeployment()
+    summary: Create a deployment
+    fullName: IoTHubManagerService.createDeployment()
+    type: Function
+    syntax:
+      content: function createDeployment()
+    langs:
+      - js
+  - uid: IoTHubManagerService.deleteDeployment
+    id: IoTHubManagerService.deleteDeployment
+    parent: IoTHubManagerService
+    name: deleteDeployment()
+    summary: Delete a deployment
+    fullName: IoTHubManagerService.deleteDeployment()
+    type: Function
+    syntax:
+      content: function deleteDeployment()
+    langs:
+      - js
+  - uid: IoTHubManagerService.getDeploymentDetails
+    id: IoTHubManagerService.getDeploymentDetails
+    parent: IoTHubManagerService
+    name: getDeploymentDetails()
+    summary: Returns deployments
+    fullName: IoTHubManagerService.getDeploymentDetails()
+    type: Function
+    syntax:
+      content: function getDeploymentDetails()
+    langs:
+      - js
+  - uid: IoTHubManagerService.sendCloudToDeviceMessages
+    id: IoTHubManagerService.sendCloudToDeviceMessages
+    parent: IoTHubManagerService
+    name: sendCloudToDeviceMessages()
+    summary: Sends Cloud to device message
+    fullName: IoTHubManagerService.sendCloudToDeviceMessages()
+    type: Function
+    syntax:
+      content: function sendCloudToDeviceMessages()
+    langs:
+      - js

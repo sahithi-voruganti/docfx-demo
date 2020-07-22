@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Validator
+    id: Validator
+    name: Validator
+    summary: Contains logic for validating a value
+    fullName: Validator
+    type: Class
+    children:
+      - Validator.#ctor
+      - Validator#check
+      - Validator#reject
+    langs:
+      - js
+  - id: Validator.#ctor
+    uid: Validator.#ctor
+    parent: Validator
+    name: Validator()
+    fullName: Validator.Validator()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new Validator()
+    langs:
+      - js
+  - uid: Validator#check
+    id: Validator#check
+    parent: Validator
+    name: check()
+    summary: "Adds a checking function to the validator list\rIf the function returns false, validation fails"
+    fullName: Validator.check()
+    type: Function
+    syntax:
+      content: function check()
+    langs:
+      - js
+  - uid: Validator#reject
+    id: Validator#reject
+    parent: Validator
+    name: reject()
+    summary: "Adds a rejection function to the rejector list\rIf the function returns false, the value is rejected"
+    fullName: Validator.reject()
+    type: Function
+    syntax:
+      content: function reject()
+    langs:
+      - js

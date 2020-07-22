@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: TelemetryService
+    id: TelemetryService
+    name: TelemetryService
+    summary: Contains methods for calling the telemetry service
+    fullName: TelemetryService
+    type: Class
+    children:
+      - TelemetryService.#ctor
+      - TelemetryService.getStatus
+      - TelemetryService.getRules
+      - TelemetryService.createRule
+      - TelemetryService.updateRule
+      - TelemetryService.getAlerts
+      - TelemetryService.getActiveAlerts
+      - TelemetryService.getAlertsForRule
+      - TelemetryService.updateAlertStatus
+      - TelemetryService.getTelemetryByMessages
+    langs:
+      - js
+  - id: TelemetryService.#ctor
+    uid: TelemetryService.#ctor
+    parent: TelemetryService
+    name: TelemetryService()
+    fullName: TelemetryService.TelemetryService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new TelemetryService()
+    langs:
+      - js
+  - uid: TelemetryService.getStatus
+    id: TelemetryService.getStatus
+    parent: TelemetryService
+    name: getStatus()
+    summary: Returns the status properties for the telemetry service
+    fullName: TelemetryService.getStatus()
+    type: Function
+    syntax:
+      content: function getStatus()
+    langs:
+      - js
+  - uid: TelemetryService.getRules
+    id: TelemetryService.getRules
+    parent: TelemetryService
+    name: getRules()
+    summary: Returns a list of rules
+    fullName: TelemetryService.getRules()
+    type: Function
+    syntax:
+      content: function getRules()
+    langs:
+      - js
+  - uid: TelemetryService.createRule
+    id: TelemetryService.createRule
+    parent: TelemetryService
+    name: createRule()
+    summary: creates a new rule
+    fullName: TelemetryService.createRule()
+    type: Function
+    syntax:
+      content: function createRule()
+    langs:
+      - js
+  - uid: TelemetryService.updateRule
+    id: TelemetryService.updateRule
+    parent: TelemetryService
+    name: updateRule()
+    summary: updates an existing rule
+    fullName: TelemetryService.updateRule()
+    type: Function
+    syntax:
+      content: function updateRule()
+    langs:
+      - js
+  - uid: TelemetryService.getAlerts
+    id: TelemetryService.getAlerts
+    parent: TelemetryService
+    name: getAlerts()
+    summary: Returns a list of alarms (all statuses)
+    fullName: TelemetryService.getAlerts()
+    type: Function
+    syntax:
+      content: function getAlerts()
+    langs:
+      - js
+  - uid: TelemetryService.getActiveAlerts
+    id: TelemetryService.getActiveAlerts
+    parent: TelemetryService
+    name: getActiveAlerts()
+    summary: Returns a list of active alarms (open or ack)
+    fullName: TelemetryService.getActiveAlerts()
+    type: Function
+    syntax:
+      content: function getActiveAlerts()
+    langs:
+      - js
+  - uid: TelemetryService.getAlertsForRule
+    id: TelemetryService.getAlertsForRule
+    parent: TelemetryService
+    name: getAlertsForRule()
+    summary: Returns a list of alarms created from a given rule
+    fullName: TelemetryService.getAlertsForRule()
+    type: Function
+    syntax:
+      content: function getAlertsForRule()
+    langs:
+      - js
+  - uid: TelemetryService.updateAlertStatus
+    id: TelemetryService.updateAlertStatus
+    parent: TelemetryService
+    name: updateAlertStatus()
+    summary: Returns a list of alarms created from a given rule
+    fullName: TelemetryService.updateAlertStatus()
+    type: Function
+    syntax:
+      content: function updateAlertStatus()
+    langs:
+      - js
+  - uid: TelemetryService.getTelemetryByMessages
+    id: TelemetryService.getTelemetryByMessages
+    parent: TelemetryService
+    name: getTelemetryByMessages()
+    summary: Returns a telemetry events
+    fullName: TelemetryService.getTelemetryByMessages()
+    type: Function
+    syntax:
+      content: function getTelemetryByMessages()
+    langs:
+      - js

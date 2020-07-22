@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: LinkedComponent
+    id: LinkedComponent
+    name: LinkedComponent
+    summary: A helper for creating components with links into the component state
+    fullName: LinkedComponent
+    type: Class
+    children:
+      - LinkedComponent.#ctor
+    langs:
+      - js
+  - id: LinkedComponent.#ctor
+    uid: LinkedComponent.#ctor
+    parent: LinkedComponent
+    name: LinkedComponent()
+    fullName: LinkedComponent.LinkedComponent()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new LinkedComponent()
+    langs:
+      - js

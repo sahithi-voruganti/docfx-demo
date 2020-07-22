@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ExampleService
+    id: ExampleService
+    name: ExampleService
+    summary: Contains methods for calling the example service
+    fullName: ExampleService
+    type: Class
+    children:
+      - ExampleService.#ctor
+      - ExampleService.getExampleItem
+      - ExampleService.getExampleItems
+      - ExampleService.updateExampleItems
+    langs:
+      - js
+  - id: ExampleService.#ctor
+    uid: ExampleService.#ctor
+    parent: ExampleService
+    name: ExampleService()
+    fullName: ExampleService.ExampleService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new ExampleService()
+    langs:
+      - js
+  - uid: ExampleService.getExampleItem
+    id: ExampleService.getExampleItem
+    parent: ExampleService
+    name: getExampleItem()
+    summary: Returns an example item
+    fullName: ExampleService.getExampleItem()
+    type: Function
+    syntax:
+      content: function getExampleItem()
+    langs:
+      - js
+  - uid: ExampleService.getExampleItems
+    id: ExampleService.getExampleItems
+    parent: ExampleService
+    name: getExampleItems()
+    summary: Returns a list of example items
+    fullName: ExampleService.getExampleItems()
+    type: Function
+    syntax:
+      content: function getExampleItems()
+    langs:
+      - js
+  - uid: ExampleService.updateExampleItems
+    id: ExampleService.updateExampleItems
+    parent: ExampleService
+    name: updateExampleItems()
+    summary: Mimics a server call by adding a delay
+    fullName: ExampleService.updateExampleItems()
+    type: Function
+    syntax:
+      content: function updateExampleItems()
+    langs:
+      - js

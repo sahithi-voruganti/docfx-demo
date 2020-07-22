@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ExampleGrid
+    id: ExampleGrid
+    name: ExampleGrid
+    summary: "A grid for displaying example data\r\rEncapsulates the PcsGrid props"
+    fullName: ExampleGrid
+    type: Class
+    children:
+      - ExampleGrid.#ctor
+      - ExampleGrid#onGridReady
+      - ExampleGrid#onSoftSelectChange
+      - ExampleGrid#onHardSelectChange
+    langs:
+      - js
+  - id: ExampleGrid.#ctor
+    uid: ExampleGrid.#ctor
+    parent: ExampleGrid
+    name: ExampleGrid()
+    fullName: ExampleGrid.ExampleGrid()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new ExampleGrid()
+    langs:
+      - js
+  - uid: ExampleGrid#onGridReady
+    id: ExampleGrid#onGridReady
+    parent: ExampleGrid
+    name: onGridReady
+    summary: Get the grid api options
+    fullName: ExampleGrid.onGridReady
+    type: Member
+    syntax:
+      content: onGridReady
+    langs:
+      - js
+  - uid: ExampleGrid#onSoftSelectChange
+    id: ExampleGrid#onSoftSelectChange
+    parent: ExampleGrid
+    name: onSoftSelectChange
+    summary: "Handles soft select props method.\rSoft selection happens when the user clicks on the row."
+    fullName: ExampleGrid.onSoftSelectChange
+    type: Member
+    syntax:
+      content: onSoftSelectChange
+    langs:
+      - js
+  - uid: ExampleGrid#onHardSelectChange
+    id: ExampleGrid#onHardSelectChange
+    parent: ExampleGrid
+    name: onHardSelectChange
+    summary: "Handles context filter changes and calls any hard select props method.\rHard selection happens when the user checks the box for the row."
+    fullName: ExampleGrid.onHardSelectChange
+    type: Member
+    syntax:
+      content: onHardSelectChange
+    langs:
+      - js

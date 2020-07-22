@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: IdentityGatewayService
+    id: IdentityGatewayService
+    name: IdentityGatewayService
+    summary: Contains methods for calling the Identity Gateway service
+    fullName: IdentityGatewayService
+    type: Class
+    children:
+      - IdentityGatewayService.#ctor
+      - IdentityGatewayService.getUsers
+      - IdentityGatewayService.getAllNonSystemAdmins
+      - IdentityGatewayService.getAllSystemAdmins
+      - IdentityGatewayService.deleteUser
+      - IdentityGatewayService.invite
+      - IdentityGatewayService.addSP
+    langs:
+      - js
+  - id: IdentityGatewayService.#ctor
+    uid: IdentityGatewayService.#ctor
+    parent: IdentityGatewayService
+    name: IdentityGatewayService()
+    fullName: IdentityGatewayService.IdentityGatewayService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new IdentityGatewayService()
+    langs:
+      - js
+  - uid: IdentityGatewayService.getUsers
+    id: IdentityGatewayService.getUsers
+    parent: IdentityGatewayService
+    name: getUsers()
+    summary: Returns a list of users
+    fullName: IdentityGatewayService.getUsers()
+    type: Function
+    syntax:
+      content: function getUsers()
+    langs:
+      - js
+  - uid: IdentityGatewayService.getAllNonSystemAdmins
+    id: IdentityGatewayService.getAllNonSystemAdmins
+    parent: IdentityGatewayService
+    name: getAllNonSystemAdmins()
+    summary: Returns all the users who are not currently super users
+    fullName: IdentityGatewayService.getAllNonSystemAdmins()
+    type: Function
+    syntax:
+      content: function getAllNonSystemAdmins()
+    langs:
+      - js
+  - uid: IdentityGatewayService.getAllSystemAdmins
+    id: IdentityGatewayService.getAllSystemAdmins
+    parent: IdentityGatewayService
+    name: getAllSystemAdmins()
+    summary: Retuns all the current super users in the system
+    fullName: IdentityGatewayService.getAllSystemAdmins()
+    type: Function
+    syntax:
+      content: function getAllSystemAdmins()
+    langs:
+      - js
+  - uid: IdentityGatewayService.deleteUser
+    id: IdentityGatewayService.deleteUser
+    parent: IdentityGatewayService
+    name: deleteUser()
+    summary: Delete a User
+    fullName: IdentityGatewayService.deleteUser()
+    type: Function
+    syntax:
+      content: function deleteUser()
+    langs:
+      - js
+  - uid: IdentityGatewayService.invite
+    id: IdentityGatewayService.invite
+    parent: IdentityGatewayService
+    name: invite()
+    summary: Invite a new User
+    fullName: IdentityGatewayService.invite()
+    type: Function
+    syntax:
+      content: function invite()
+    langs:
+      - js
+  - uid: IdentityGatewayService.addSP
+    id: IdentityGatewayService.addSP
+    parent: IdentityGatewayService
+    name: addSP()
+    summary: Add a new Service Principal
+    fullName: IdentityGatewayService.addSP()
+    type: Function
+    syntax:
+      content: function addSP()
+    langs:
+      - js

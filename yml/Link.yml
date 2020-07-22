@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Link
+    id: Link
+    name: Link
+    summary: Links to a part of a component state
+    fullName: Link
+    type: Class
+    children:
+      - Link.#ctor
+      - Link#to
+      - Link#map
+      - Link#set
+      - Link#withValidator
+      - Link#getLinkedChildren
+      - Link#forkStateChange
+    langs:
+      - js
+  - id: Link.#ctor
+    uid: Link.#ctor
+    parent: Link
+    name: Link()
+    fullName: Link.Link()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new Link()
+    langs:
+      - js
+  - uid: Link#to
+    id: Link#to
+    parent: Link
+    name: to
+    summary: Links to property in the component state
+    fullName: Link.to
+    type: Member
+    syntax:
+      content: to
+    langs:
+      - js
+  - uid: Link#map
+    id: Link#map
+    parent: Link
+    name: map
+    summary: Adds a function for mapping an input value to a new value
+    fullName: Link.map
+    type: Member
+    syntax:
+      content: map
+    langs:
+      - js
+  - uid: Link#set
+    id: Link#set
+    parent: Link
+    name: set()
+    summary: "Updates the value of the component state property the Link is\rconnected to."
+    fullName: Link.set()
+    type: Function
+    syntax:
+      content: function set()
+    langs:
+      - js
+  - uid: Link#withValidator
+    id: Link#withValidator
+    parent: Link
+    name: withValidator()
+    summary: Allows the link to use predefined validator logic
+    fullName: Link.withValidator()
+    type: Function
+    syntax:
+      content: function withValidator()
+    langs:
+      - js
+  - uid: Link#getLinkedChildren
+    id: Link#getLinkedChildren
+    parent: Link
+    name: getLinkedChildren
+    summary: A helper method for array state properties
+    fullName: Link.getLinkedChildren
+    type: Member
+    syntax:
+      content: getLinkedChildren
+    langs:
+      - js
+  - uid: Link#forkStateChange
+    id: Link#forkStateChange
+    parent: Link
+    name: forkStateChange
+    summary: "Used to create a new Link instance using the state property hierarchy of an\rexisting instance"
+    fullName: Link.forkStateChange
+    type: Member
+    syntax:
+      content: forkStateChange
+    langs:
+      - js

@@ -1,0 +1,6 @@
+{
+    "source": {
+      "include": ["../../../3M/SourceCode/azure-iot-platform-dotnet/src/webui/src"]
+    },
+    "destination": "yml"
+  }

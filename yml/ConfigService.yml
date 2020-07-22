@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ConfigService
+    id: ConfigService
+    name: ConfigService
+    summary: Contains methods for calling the config service
+    fullName: ConfigService
+    type: Class
+    children:
+      - ConfigService.#ctor
+      - ConfigService.getDeviceGroups
+      - ConfigService.createDeviceGroup
+      - ConfigService.deleteDeviceGroup
+      - ConfigService.createPackage
+      - ConfigService.uploadFirmware
+      - ConfigService.getPackages
+      - ConfigService.getFilteredPackages
+      - ConfigService.getConfigTypes
+      - ConfigService.deletePackage
+    langs:
+      - js
+  - id: ConfigService.#ctor
+    uid: ConfigService.#ctor
+    parent: ConfigService
+    name: ConfigService()
+    fullName: ConfigService.ConfigService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new ConfigService()
+    langs:
+      - js
+  - uid: ConfigService.getDeviceGroups
+    id: ConfigService.getDeviceGroups
+    parent: ConfigService
+    name: getDeviceGroups()
+    summary: Returns a the account's device groups
+    fullName: ConfigService.getDeviceGroups()
+    type: Function
+    syntax:
+      content: function getDeviceGroups()
+    langs:
+      - js
+  - uid: ConfigService.createDeviceGroup
+    id: ConfigService.createDeviceGroup
+    parent: ConfigService
+    name: createDeviceGroup()
+    summary: Creates a new device group
+    fullName: ConfigService.createDeviceGroup()
+    type: Function
+    syntax:
+      content: function createDeviceGroup()
+    langs:
+      - js
+  - uid: ConfigService.deleteDeviceGroup
+    id: ConfigService.deleteDeviceGroup
+    parent: ConfigService
+    name: deleteDeviceGroup()
+    summary: Delete a device group
+    fullName: ConfigService.deleteDeviceGroup()
+    type: Function
+    syntax:
+      content: function deleteDeviceGroup()
+    langs:
+      - js
+  - uid: ConfigService.createPackage
+    id: ConfigService.createPackage
+    parent: ConfigService
+    name: createPackage()
+    summary: Creates a new package
+    fullName: ConfigService.createPackage()
+    type: Function
+    syntax:
+      content: function createPackage()
+    langs:
+      - js
+  - uid: ConfigService.uploadFirmware
+    id: ConfigService.uploadFirmware
+    parent: ConfigService
+    name: uploadFirmware()
+    summary: Creates a new package
+    fullName: ConfigService.uploadFirmware()
+    type: Function
+    syntax:
+      content: function uploadFirmware()
+    langs:
+      - js
+  - uid: ConfigService.getPackages
+    id: ConfigService.getPackages
+    parent: ConfigService
+    name: getPackages()
+    summary: Returns all the account's packages
+    fullName: ConfigService.getPackages()
+    type: Function
+    syntax:
+      content: function getPackages()
+    langs:
+      - js
+  - uid: ConfigService.getFilteredPackages
+    id: ConfigService.getFilteredPackages
+    parent: ConfigService
+    name: getFilteredPackages()
+    summary: Returns filtered packages
+    fullName: ConfigService.getFilteredPackages()
+    type: Function
+    syntax:
+      content: function getFilteredPackages()
+    langs:
+      - js
+  - uid: ConfigService.getConfigTypes
+    id: ConfigService.getConfigTypes
+    parent: ConfigService
+    name: getConfigTypes()
+    summary: Returns all the account's packages
+    fullName: ConfigService.getConfigTypes()
+    type: Function
+    syntax:
+      content: function getConfigTypes()
+    langs:
+      - js
+  - uid: ConfigService.deletePackage
+    id: ConfigService.deletePackage
+    parent: ConfigService
+    name: deletePackage()
+    summary: Delete a package
+    fullName: ConfigService.deletePackage()
+    type: Function
+    syntax:
+      content: function deletePackage()
+    langs:
+      - js

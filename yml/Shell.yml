@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Shell
+    id: Shell
+    name: Shell
+    summary: The base component for the app shell
+    fullName: Shell
+    type: Class
+    children:
+      - Shell.#ctor
+    langs:
+      - js
+  - id: Shell.#ctor
+    uid: Shell.#ctor
+    parent: Shell
+    name: Shell()
+    fullName: Shell.Shell()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new Shell()
+    langs:
+      - js

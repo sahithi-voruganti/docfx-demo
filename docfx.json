@@ -11,31 +11,42 @@
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "src": "../../../3M/SourceCode/azure-iot-platform-dotnet/",
+          "files":[
+            "src/services/asa-manager/WebService/**.cs"
+          ]
+        }
+      ],
+      "dest": "api/asa-manager"
+    },
+    {
+      "src": [
+        {
+          "src": "../../../3M/SourceCode/azure-iot-platform-dotnet/",
+          "files":[
+            "src/services/config/WebService/**.cs"
+          ]
+        }
+      ],
+      "dest": "api/config"
     }
   ],
   "build": {
     "content": [
       {
-        "files": [
-          "api/**.yml",
-          "api/index.md"
-        ]
+      "files": [
+        "**/*.md",
+        "**/*.yml"
+      ]
       },
       {
-        "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "toc.yml",
-          "*.md"
-        ]
-      },
-      {
-        "files": [
-          "ui-tests/**.md",
-          "ui-tests/**/toc.yml",
-          "toc.yml",
-          "*.md"
-        ]
+        "src": "yml",
+        "files": ["**/*.yml"],
+        "dest": "web-ui"
       }
     ],
     "resource": [
@@ -57,6 +68,13 @@
       }
     ],
     "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "3M Serenity Documentation",
+      "_appLogoPath": "images/3M_wordmark.svg",
+      "_appFaviconPath": "images/3M_wordmark.svg",
+      "_enableSearch": true,
+      "_appFooter": "Copyright © 3M."
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: DiagnosticsService
+    id: DiagnosticsService
+    name: DiagnosticsService
+    summary: Contains methods for calling the diagnostics service
+    fullName: DiagnosticsService
+    type: Class
+    children:
+      - DiagnosticsService.#ctor
+      - DiagnosticsService.logEvent
+    langs:
+      - js
+  - id: DiagnosticsService.#ctor
+    uid: DiagnosticsService.#ctor
+    parent: DiagnosticsService
+    name: DiagnosticsService()
+    fullName: DiagnosticsService.DiagnosticsService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new DiagnosticsService()
+    langs:
+      - js
+  - uid: DiagnosticsService.logEvent
+    id: DiagnosticsService.logEvent
+    parent: DiagnosticsService
+    name: logEvent()
+    summary: Posts an event
+    fullName: DiagnosticsService.logEvent()
+    type: Function
+    syntax:
+      content: function logEvent()
+    langs:
+      - js

@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: UsersGrid
+    id: UsersGrid
+    name: UsersGrid
+    summary: "A grid for displaying users\r\rEncapsulates the PcsGrid props"
+    fullName: UsersGrid
+    type: Class
+    children:
+      - UsersGrid.#ctor
+      - UsersGrid#onGridReady
+      - UsersGrid#onSoftSelectChange
+      - UsersGrid#onHardSelectChange
+    langs:
+      - js
+  - id: UsersGrid.#ctor
+    uid: UsersGrid.#ctor
+    parent: UsersGrid
+    name: UsersGrid()
+    fullName: UsersGrid.UsersGrid()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new UsersGrid()
+    langs:
+      - js
+  - uid: UsersGrid#onGridReady
+    id: UsersGrid#onGridReady
+    parent: UsersGrid
+    name: onGridReady
+    summary: Get the grid api options
+    fullName: UsersGrid.onGridReady
+    type: Member
+    syntax:
+      content: onGridReady
+    langs:
+      - js
+  - uid: UsersGrid#onSoftSelectChange
+    id: UsersGrid#onSoftSelectChange
+    parent: UsersGrid
+    name: onSoftSelectChange
+    summary: Handles soft select props method
+    fullName: UsersGrid.onSoftSelectChange
+    type: Member
+    syntax:
+      content: onSoftSelectChange
+    langs:
+      - js
+  - uid: UsersGrid#onHardSelectChange
+    id: UsersGrid#onHardSelectChange
+    parent: UsersGrid
+    name: onHardSelectChange
+    summary: Handles context filter changes and calls any hard select props method
+    fullName: UsersGrid.onHardSelectChange
+    type: Member
+    syntax:
+      content: onHardSelectChange
+    langs:
+      - js

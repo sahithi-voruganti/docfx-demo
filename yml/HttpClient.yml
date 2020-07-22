@@ -1,0 +1,150 @@
+### YamlMime:UniversalReference
+items:
+  - uid: HttpClient
+    id: HttpClient
+    name: HttpClient
+    summary: A class of static methods for creating ajax requests
+    fullName: HttpClient
+    type: Class
+    children:
+      - HttpClient.#ctor
+      - HttpClient.get
+      - HttpClient.post
+      - HttpClient.put
+      - HttpClient.patch
+      - HttpClient.delete
+      - HttpClient.ajax
+      - HttpClient.createAjaxRequest
+    langs:
+      - js
+  - id: HttpClient.#ctor
+    uid: HttpClient.#ctor
+    parent: HttpClient
+    name: HttpClient()
+    fullName: HttpClient.HttpClient()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new HttpClient()
+    langs:
+      - js
+  - uid: HttpClient.get
+    id: HttpClient.get
+    parent: HttpClient
+    name: get(url)
+    summary: Constructs a GET ajax request
+    fullName: HttpClient.get(url)
+    type: Function
+    syntax:
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url path to the make the request to
+      content: function get(url)
+    langs:
+      - js
+  - uid: HttpClient.post
+    id: HttpClient.post
+    parent: HttpClient
+    name: post(url)
+    summary: Constructs a POST ajax request
+    fullName: HttpClient.post(url)
+    type: Function
+    syntax:
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url path to the make the request to
+      content: function post(url)
+    langs:
+      - js
+  - uid: HttpClient.put
+    id: HttpClient.put
+    parent: HttpClient
+    name: put(url)
+    summary: Constructs a PUT ajax request
+    fullName: HttpClient.put(url)
+    type: Function
+    syntax:
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url path to the make the request to
+      content: function put(url)
+    langs:
+      - js
+  - uid: HttpClient.patch
+    id: HttpClient.patch
+    parent: HttpClient
+    name: patch(url)
+    summary: Constructs a PATCH ajax request
+    fullName: HttpClient.patch(url)
+    type: Function
+    syntax:
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url path to the make the request to
+      content: function patch(url)
+    langs:
+      - js
+  - uid: HttpClient.delete
+    id: HttpClient.delete
+    parent: HttpClient
+    name: delete(url)
+    summary: Constructs a DELETE ajax request
+    fullName: HttpClient.delete(url)
+    type: Function
+    syntax:
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url path to the make the request to
+      content: function delete(url)
+    langs:
+      - js
+  - uid: HttpClient.ajax
+    id: HttpClient.ajax
+    parent: HttpClient
+    name: 'ajax(url, options, withAuth)'
+    summary: Constructs an Ajax request
+    fullName: 'HttpClient.ajax(url, options, withAuth)'
+    type: Function
+    syntax:
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url path to the make the request to
+        - id: options
+          type:
+            - AjaxRequest
+          description: >-
+            See
+            https://github.com/ReactiveX/rxjs/blob/master/src/observable/dom/AjaxObservable.ts
+          optional: true
+        - id: withAuth
+          type:
+            - boolean
+          description: Allows a backdoor to not avoid wrapping auth headers
+      return:
+        description: an Observable of the AjaxReponse
+      content: 'function ajax(url, options, withAuth)'
+    langs:
+      - js
+  - uid: HttpClient.createAjaxRequest
+    id: HttpClient.createAjaxRequest
+    parent: HttpClient
+    name: createAjaxRequest()
+    summary: A helper method for constructing ajax request objects
+    fullName: HttpClient.createAjaxRequest()
+    type: Function
+    syntax:
+      content: function createAjaxRequest()
+    langs:
+      - js

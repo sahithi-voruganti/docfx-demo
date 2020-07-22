@@ -1,0 +1,17 @@
+- name: Functional Tests
+  href: functional-tests/intro.md
+  items:
+      - name: API Functional Tests
+        href: functional-tests/api-tests/
+      - name: UI Functional Tests
+        href: functional-tests/ui-tests/intro.md
+        topicHref: functional-tests/ui-tests/intro.md
+        items:
+            - name: Introduction
+              href: functional-tests/ui-tests/intro.md
+            - name: Create New Device
+              href: functional-tests/ui-tests/create-new-device.md
+            - name: Change Logo
+              href: functional-tests/ui-tests/change-logo.md
+            - name: Change Solution name
+              href: functional-tests/ui-tests/change-solution-name.md

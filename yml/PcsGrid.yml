@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: PcsGrid
+    id: PcsGrid
+    name: PcsGrid
+    summary: "PcsGrid is a helper wrapper around AgGrid. The primary functionality of this wrapper\ris to allow easy reuse of the pcs dark grid theme. To see params, read the AgGrid docs.\r\rProps:\r getSoftSelectId: A method that when provided with the a row data object returns an id for that object\r softSelectId: The ID of the row data to be soft selected\r onHardSelectChange: Fires when rows are hard selected\r onSoftSelectChange: Fires when a row is soft selected\rTODO (stpryor): Add design pagination"
+    fullName: PcsGrid
+    type: Class
+    children:
+      - PcsGrid.#ctor
+      - PcsGrid#componentWillReceiveProps
+      - PcsGrid#onGridReady
+      - PcsGrid#refreshRows
+      - PcsGrid#onSelectionChanged
+      - PcsGrid#onRowClicked
+    langs:
+      - js
+  - id: PcsGrid.#ctor
+    uid: PcsGrid.#ctor
+    parent: PcsGrid
+    name: PcsGrid()
+    fullName: PcsGrid.PcsGrid()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new PcsGrid()
+    langs:
+      - js
+  - uid: PcsGrid#componentWillReceiveProps
+    id: PcsGrid#componentWillReceiveProps
+    parent: PcsGrid
+    name: componentWillReceiveProps()
+    summary: >-
+      When new props are passed in, check if the soft select state needs to be
+      updated
+    fullName: PcsGrid.componentWillReceiveProps()
+    type: Function
+    syntax:
+      content: function componentWillReceiveProps()
+    langs:
+      - js
+  - uid: PcsGrid#onGridReady
+    id: PcsGrid#onGridReady
+    parent: PcsGrid
+    name: onGridReady
+    summary: Save the gridApi locally on load
+    fullName: PcsGrid.onGridReady
+    type: Member
+    syntax:
+      content: onGridReady
+    langs:
+      - js
+  - uid: PcsGrid#refreshRows
+    id: PcsGrid#refreshRows
+    parent: PcsGrid
+    name: refreshRows
+    summary: "Refreshes the grid to update soft select CSS states\rForces and update event"
+    fullName: PcsGrid.refreshRows
+    type: Member
+    syntax:
+      content: refreshRows
+    langs:
+      - js
+  - uid: PcsGrid#onSelectionChanged
+    id: PcsGrid#onSelectionChanged
+    parent: PcsGrid
+    name: onSelectionChanged
+    summary: >-
+      When a row is hard selected, try to fire a hard select event, plus any
+      props callbacks
+    fullName: PcsGrid.onSelectionChanged
+    type: Member
+    syntax:
+      content: onSelectionChanged
+    langs:
+      - js
+  - uid: PcsGrid#onRowClicked
+    id: PcsGrid#onRowClicked
+    parent: PcsGrid
+    name: onRowClicked
+    summary: >-
+      When a row is clicked, select the row unless a soft select link was
+      clicked
+    fullName: PcsGrid.onRowClicked
+    type: Member
+    syntax:
+      content: onRowClicked
+    langs:
+      - js

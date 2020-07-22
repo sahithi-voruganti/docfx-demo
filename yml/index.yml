@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Index
+    name: ''
+    langs:
+      - js
+    type: package
+    summary: ''
+    children:
+      - ExampleService
+      - ExampleGrid
+      - LinkedComponent
+      - Link#Link
+      - Link
+      - Validator
+      - HttpClient
+      - TelemetryService
+      - IoTHubManagerService
+      - IdentityGatewayService
+      - DiagnosticsService
+      - DeviceSimulationService
+      - ConfigService
+      - Shell
+      - PcsGrid
+      - UsersGrid
+      - DevicesGrid
+      - createEpicCase
+      - createEpicScenario
+      - createReducerScenario
+      - classifyError
+  - uid: createEpicCase
+    id: createEpicCase
+    name: createEpicCase()
+    summary: "A helper function creating epic scenarios\rAn epic scenario consists of three properties\r - The action type string\r - The action creator\r - The epic that handles actions of given type"
+    fullName: createEpicCase()
+    type: Function
+    syntax:
+      content: function createEpicCase()
+    langs:
+      - js
+  - uid: createEpicScenario
+    id: createEpicScenario
+    name: createEpicScenario()
+    summary: "A helper function creating epics from epic cases.\rAn epic scenario takes an object of epic cases and returns\rthe following object:\r - actionTypes: An object of user defined names mapped to action type strings\r - actions: An object of user defined names mapped to action creators\r - epics: An object of user defined names mapped to epic"
+    fullName: createEpicScenario()
+    type: Function
+    syntax:
+      content: function createEpicScenario()
+    langs:
+      - js
+  - uid: createReducerScenario
+    id: createReducerScenario
+    name: createReducerScenario()
+    summary: "A helper function creating reducers from reducer cases.\rA reducer scenario takes an object of reducer cases and returns\rthe following object:\r - actionTypes: An object of user defined names mapped to action type strings\r - actions: An object of user defined names mapped to action creators\r - reducers: An object of user defined names mapped to reducer functions"
+    fullName: createReducerScenario()
+    type: Function
+    syntax:
+      content: function createReducerScenario()
+    langs:
+      - js
+  - uid: classifyError
+    id: classifyError
+    name: classifyError()
+    summary: A helper function for classifying errors as retryable or not
+    fullName: classifyError()
+    type: Function
+    syntax:
+      content: function classifyError()
+    langs:
+      - js
+references:
+  - uid: ExampleService
+    name: ExampleService
+  - uid: ExampleGrid
+    name: ExampleGrid
+  - uid: LinkedComponent
+    name: LinkedComponent
+  - uid: Link#Link
+    name: Link
+  - uid: Link
+    name: Link
+  - uid: Validator
+    name: Validator
+  - uid: HttpClient
+    name: HttpClient
+  - uid: TelemetryService
+    name: TelemetryService
+  - uid: IoTHubManagerService
+    name: IoTHubManagerService
+  - uid: IdentityGatewayService
+    name: IdentityGatewayService
+  - uid: DiagnosticsService
+    name: DiagnosticsService
+  - uid: DeviceSimulationService
+    name: DeviceSimulationService
+  - uid: ConfigService
+    name: ConfigService
+  - uid: Shell
+    name: Shell
+  - uid: PcsGrid
+    name: PcsGrid
+  - uid: UsersGrid
+    name: UsersGrid
+  - uid: DevicesGrid
+    name: DevicesGrid

@@ -1,0 +1,23 @@
+### YamlMime:UniversalReference
+items:
+  - uid: Link#Link
+    id: Link#Link
+    name: Link
+    summary: Accepts either an existing link or a component and state key name
+    fullName: Link
+    type: Class
+    children:
+      - Link#Link.#ctor
+    langs:
+      - js
+  - id: Link#Link.#ctor
+    uid: Link#Link.#ctor
+    parent: Link#Link
+    name: Link()
+    fullName: Link.Link()
+    summary: Accepts either an existing link or a component and state key name
+    type: Constructor
+    syntax:
+      content: new Link()
+    langs:
+      - js

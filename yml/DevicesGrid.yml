@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: DevicesGrid
+    id: DevicesGrid
+    name: DevicesGrid
+    summary: "A grid for displaying devices\r\rEncapsulates the PcsGrid props"
+    fullName: DevicesGrid
+    type: Class
+    children:
+      - DevicesGrid.#ctor
+      - DevicesGrid#onGridReady
+      - DevicesGrid#onSoftSelectChange
+      - DevicesGrid#onHardSelectChange
+    langs:
+      - js
+  - id: DevicesGrid.#ctor
+    uid: DevicesGrid.#ctor
+    parent: DevicesGrid
+    name: DevicesGrid()
+    fullName: DevicesGrid.DevicesGrid()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new DevicesGrid()
+    langs:
+      - js
+  - uid: DevicesGrid#onGridReady
+    id: DevicesGrid#onGridReady
+    parent: DevicesGrid
+    name: onGridReady
+    summary: Get the grid api options
+    fullName: DevicesGrid.onGridReady
+    type: Member
+    syntax:
+      content: onGridReady
+    langs:
+      - js
+  - uid: DevicesGrid#onSoftSelectChange
+    id: DevicesGrid#onSoftSelectChange
+    parent: DevicesGrid
+    name: onSoftSelectChange
+    summary: Handles soft select props method
+    fullName: DevicesGrid.onSoftSelectChange
+    type: Member
+    syntax:
+      content: onSoftSelectChange
+    langs:
+      - js
+  - uid: DevicesGrid#onHardSelectChange
+    id: DevicesGrid#onHardSelectChange
+    parent: DevicesGrid
+    name: onHardSelectChange
+    summary: Handles context filter changes and calls any hard select props method
+    fullName: DevicesGrid.onHardSelectChange
+    type: Member
+    syntax:
+      content: onHardSelectChange
+    langs:
+      - js

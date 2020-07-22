@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: DeviceSimulationService
+    id: DeviceSimulationService
+    name: DeviceSimulationService
+    summary: Contains methods for calling the device simulation microservice
+    fullName: DeviceSimulationService
+    type: Class
+    children:
+      - DeviceSimulationService.#ctor
+      - DeviceSimulationService.getDeviceModelSelectOptions
+      - DeviceSimulationService.getSimulatedDevices
+      - DeviceSimulationService.updateSimulatedDevices
+      - DeviceSimulationService.toggleSimulation
+      - DeviceSimulationService.incrementSimulatedDeviceModel
+    langs:
+      - js
+  - id: DeviceSimulationService.#ctor
+    uid: DeviceSimulationService.#ctor
+    parent: DeviceSimulationService
+    name: DeviceSimulationService()
+    fullName: DeviceSimulationService.DeviceSimulationService()
+    summary: ''
+    type: Constructor
+    syntax:
+      content: new DeviceSimulationService()
+    langs:
+      - js
+  - uid: DeviceSimulationService.getDeviceModelSelectOptions
+    id: DeviceSimulationService.getDeviceModelSelectOptions
+    parent: DeviceSimulationService
+    name: getDeviceModelSelectOptions()
+    summary: Returns a list of devicemodels
+    fullName: DeviceSimulationService.getDeviceModelSelectOptions()
+    type: Function
+    syntax:
+      content: function getDeviceModelSelectOptions()
+    langs:
+      - js
+  - uid: DeviceSimulationService.getSimulatedDevices
+    id: DeviceSimulationService.getSimulatedDevices
+    parent: DeviceSimulationService
+    name: getSimulatedDevices()
+    summary: Get the list of running simulated devices
+    fullName: DeviceSimulationService.getSimulatedDevices()
+    type: Function
+    syntax:
+      content: function getSimulatedDevices()
+    langs:
+      - js
+  - uid: DeviceSimulationService.updateSimulatedDevices
+    id: DeviceSimulationService.updateSimulatedDevices
+    parent: DeviceSimulationService
+    name: updateSimulatedDevices()
+    summary: Updates simulated device
+    fullName: DeviceSimulationService.updateSimulatedDevices()
+    type: Function
+    syntax:
+      content: function updateSimulatedDevices()
+    langs:
+      - js
+  - uid: DeviceSimulationService.toggleSimulation
+    id: DeviceSimulationService.toggleSimulation
+    parent: DeviceSimulationService
+    name: toggleSimulation()
+    summary: Toggles simulation status
+    fullName: DeviceSimulationService.toggleSimulation()
+    type: Function
+    syntax:
+      content: function toggleSimulation()
+    langs:
+      - js
+  - uid: DeviceSimulationService.incrementSimulatedDeviceModel
+    id: DeviceSimulationService.incrementSimulatedDeviceModel
+    parent: DeviceSimulationService
+    name: incrementSimulatedDeviceModel()
+    summary: >-
+      Gets the simulated device models, increments the given one, then updates
+      on the server
+    fullName: DeviceSimulationService.incrementSimulatedDeviceModel()
+    type: Function
+    syntax:
+      content: function incrementSimulatedDeviceModel()
+    langs:
+      - js
