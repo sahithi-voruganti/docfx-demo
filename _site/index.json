@@ -1,0 +1,292 @@
+{
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.DeviceGroupsController.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.DeviceGroupsController.html",
+    "title": "Class DeviceGroupsController | 3M Serenity Documentation",
+    "keywords": "Class DeviceGroupsController Inheritance System.Object DeviceGroupsController Namespace : Mmm.Iot.AsaManager.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class DeviceGroupsController : Controller Constructors DeviceGroupsController(DeviceGroupsConverter, IKeyGenerator, ILogger<DeviceGroupsController>) Declaration public DeviceGroupsController(DeviceGroupsConverter devicegroupConverter, IKeyGenerator keyGenerator, ILogger<DeviceGroupsController> logger) Parameters Type Name Description DeviceGroupsConverter devicegroupConverter IKeyGenerator keyGenerator ILogger < DeviceGroupsController > logger Methods BeginDeviceGroupConversion() Declaration public BeginConversionApiModel BeginDeviceGroupConversion() Returns Type Description BeginConversionApiModel"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.html",
+    "title": "Namespace Mmm.Iot.AsaManager.WebService.Controllers | 3M Serenity Documentation",
+    "keywords": "Namespace Mmm.Iot.AsaManager.WebService.Controllers Classes DeviceGroupsController RulesController StatusController"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.RulesController.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.RulesController.html",
+    "title": "Class RulesController | 3M Serenity Documentation",
+    "keywords": "Class RulesController Inheritance System.Object RulesController Namespace : Mmm.Iot.AsaManager.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class RulesController : Controller Constructors RulesController(RulesConverter, IKeyGenerator, ILogger<RulesController>) Declaration public RulesController(RulesConverter ruleConverter, IKeyGenerator keyGenerator, ILogger<RulesController> logger) Parameters Type Name Description RulesConverter ruleConverter IKeyGenerator keyGenerator ILogger < RulesController > logger Methods BeginRuleConversion() Declaration public BeginConversionApiModel BeginRuleConversion() Returns Type Description BeginConversionApiModel"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.StatusController.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Controllers.StatusController.html",
+    "title": "Class StatusController | 3M Serenity Documentation",
+    "keywords": "Class StatusController Inheritance System.Object StatusController Namespace : Mmm.Iot.AsaManager.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public sealed class StatusController : ControllerBase Constructors StatusController(IStatusService) Declaration public StatusController(IStatusService statusService) Parameters Type Name Description IStatusService statusService Methods GetAsync() Declaration public Task<StatusApiModel> GetAsync() Returns Type Description Task < StatusApiModel > Ping() Declaration public IActionResult Ping() Returns Type Description IActionResult"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.DependencyResolution.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.DependencyResolution.html",
+    "title": "Class DependencyResolution | 3M Serenity Documentation",
+    "keywords": "Class DependencyResolution Inheritance System.Object DependencyResolution Namespace : Mmm.Iot.AsaManager.WebService Assembly : cs.temp.dll.dll Syntax public class DependencyResolution : DependencyResolutionBase Methods SetupCustomRules(ContainerBuilder) Declaration protected override void SetupCustomRules(ContainerBuilder builder) Parameters Type Name Description ContainerBuilder builder"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.html",
+    "title": "Namespace Mmm.Iot.AsaManager.WebService | 3M Serenity Documentation",
+    "keywords": "Namespace Mmm.Iot.AsaManager.WebService Classes DependencyResolution Program Startup"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.Program.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Program.html",
+    "title": "Class Program | 3M Serenity Documentation",
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.AsaManager.WebService Assembly : cs.temp.dll.dll Syntax public class Program Methods Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+  },
+  "api/asa-manager/Mmm.Iot.AsaManager.WebService.Startup.html": {
+    "href": "api/asa-manager/Mmm.Iot.AsaManager.WebService.Startup.html",
+    "title": "Class Startup | 3M Serenity Documentation",
+    "keywords": "Class Startup Inheritance System.Object Startup Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.AsaManager.WebService Assembly : cs.temp.dll.dll Syntax public class Startup Constructors Startup(IConfiguration) Declaration public Startup(IConfiguration configuration) Parameters Type Name Description IConfiguration configuration Properties ApplicationContainer Declaration public IContainer ApplicationContainer { get; } Property Value Type Description IContainer Configuration Declaration public IConfiguration Configuration { get; } Property Value Type Description IConfiguration Methods Configure(IApplicationBuilder, IHostApplicationLifetime, AppConfig) Declaration public void Configure(IApplicationBuilder app, IHostApplicationLifetime appLifetime, AppConfig config) Parameters Type Name Description IApplicationBuilder app IHostApplicationLifetime appLifetime AppConfig config ConfigureServices(IServiceCollection) Declaration public IServiceProvider ConfigureServices(IServiceCollection services) Parameters Type Name Description IServiceCollection services Returns Type Description IServiceProvider"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.ConfigTypesController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.ConfigTypesController.html",
+    "title": "Class ConfigTypesController | 3M Serenity Documentation",
+    "keywords": "Class ConfigTypesController Inheritance System.Object ConfigTypesController Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class ConfigTypesController Constructors ConfigTypesController(IStorage) Declaration public ConfigTypesController(IStorage storage) Parameters Type Name Description IStorage storage Methods GetAllConfigTypesAsync() Declaration public Task<ConfigTypeListApiModel> GetAllConfigTypesAsync() Returns Type Description Task < ConfigTypeListApiModel >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.DeviceGroupController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.DeviceGroupController.html",
+    "title": "Class DeviceGroupController | 3M Serenity Documentation",
+    "keywords": "Class DeviceGroupController Inheritance System.Object DeviceGroupController Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class DeviceGroupController : Controller Constructors DeviceGroupController(IStorage) Declaration public DeviceGroupController(IStorage storage) Parameters Type Name Description IStorage storage Methods CreateAsync(DeviceGroupApiModel) Declaration public Task<DeviceGroupApiModel> CreateAsync(DeviceGroupApiModel input) Parameters Type Name Description DeviceGroupApiModel input Returns Type Description Task < DeviceGroupApiModel > DeleteAsync(String) Declaration public Task DeleteAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task GetAllAsync() Declaration public Task<DeviceGroupListApiModel> GetAllAsync() Returns Type Description Task < DeviceGroupListApiModel > GetAsync(String) Declaration public Task<DeviceGroupApiModel> GetAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task < DeviceGroupApiModel > UpdateAsync(String, DeviceGroupApiModel) Declaration public Task<DeviceGroupApiModel> UpdateAsync(string id, DeviceGroupApiModel input) Parameters Type Name Description System.String id DeviceGroupApiModel input Returns Type Description Task < DeviceGroupApiModel >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.html",
+    "title": "Namespace Mmm.Iot.Config.WebService.Controllers | 3M Serenity Documentation",
+    "keywords": "Namespace Mmm.Iot.Config.WebService.Controllers Classes ConfigTypesController DeviceGroupController PackagesController SeedController SolutionSettingsController Solution Settings controller for managing the settings of the application StatusController UserSettingsController"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.PackagesController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.PackagesController.html",
+    "title": "Class PackagesController | 3M Serenity Documentation",
+    "keywords": "Class PackagesController Inheritance System.Object PackagesController Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class PackagesController : Controller Constructors PackagesController(IStorage) Declaration public PackagesController(IStorage storage) Parameters Type Name Description IStorage storage Fields InactivePackageTag Declaration public const string InactivePackageTag = \"reserved.inactive\" Field Value Type Description System.String Methods ActivatePackageAsync(String) Declaration public Task<ActionResult<PackageApiModel>> ActivatePackageAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task < ActionResult < PackageApiModel >> AddTagAsync(String, String) Declaration public Task<ActionResult<PackageApiModel>> AddTagAsync(string id, string tag) Parameters Type Name Description System.String id System.String tag Returns Type Description Task < ActionResult < PackageApiModel >> DeactivatePackageAsync(String) Declaration public Task<ActionResult<PackageApiModel>> DeactivatePackageAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task < ActionResult < PackageApiModel >> DeleteAsync(String) Declaration public Task DeleteAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task GetAsync(String) Declaration public Task<PackageApiModel> GetAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task < PackageApiModel > GetFilteredAsync(String, String, List<String>, String) Declaration public Task<PackageListApiModel> GetFilteredAsync(string packageType, string configType, List<string> tags, string tagOperator = \"AND\") Parameters Type Name Description System.String packageType System.String configType List < System.String > tags System.String tagOperator Returns Type Description Task < PackageListApiModel > PostAsync(String, String, String, String, List<String>, IFormFile) Declaration public Task<PackageApiModel> PostAsync(string packageName, string packageType, string configType, string version, List<string> tags, IFormFile package) Parameters Type Name Description System.String packageName System.String packageType System.String configType System.String version List < System.String > tags IFormFile package Returns Type Description Task < PackageApiModel > RemoveTagAsync(String, String) Declaration public Task<ActionResult<PackageApiModel>> RemoveTagAsync(string id, string tag) Parameters Type Name Description System.String id System.String tag Returns Type Description Task < ActionResult < PackageApiModel >> RemoveTagsAsync(String) Declaration public Task<ActionResult<PackageApiModel>> RemoveTagsAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task < ActionResult < PackageApiModel >> UploadFileAsync(IFormFile) Declaration public Task<UploadFileServiceModel> UploadFileAsync(IFormFile uploadedFile) Parameters Type Name Description IFormFile uploadedFile Returns Type Description Task < UploadFileServiceModel >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.SeedController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.SeedController.html",
+    "title": "Class SeedController | 3M Serenity Documentation",
+    "keywords": "Class SeedController Inheritance System.Object SeedController Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class SeedController : Controller Constructors SeedController(ISeed) Declaration public SeedController(ISeed seed) Parameters Type Name Description ISeed seed Methods PostAsync() Declaration public Task PostAsync() Returns Type Description Task"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.SolutionSettingsController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.SolutionSettingsController.html",
+    "title": "Class SolutionSettingsController | 3M Serenity Documentation",
+    "keywords": "Class SolutionSettingsController Solution Settings controller for managing the settings of the application Inheritance System.Object SolutionSettingsController Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class SolutionSettingsController : Controller Constructors SolutionSettingsController(IStorage, IActions) Declaration public SolutionSettingsController(IStorage storage, IActions actions) Parameters Type Name Description IStorage storage IActions actions Methods GetActionsSettingsAsync() Declaration public Task<ActionSettingsListApiModel> GetActionsSettingsAsync() Returns Type Description Task < ActionSettingsListApiModel > GetLogoAsync() Gets current logo and solution name Declaration public Task GetLogoAsync() Returns Type Description Task Current logo and solution name GetThemeAsync() Gets current theme Declaration public Task<object> GetThemeAsync() Returns Type Description Task < System.Object > Current theme SetLogoAsync() Sets current logo and solution name Declaration public Task SetLogoAsync() Returns Type Description Task Applied logo and solution name SetThemeAsync(Object) Sets theme Declaration public Task<object> SetThemeAsync(object theme) Parameters Type Name Description System.Object theme Returns Type Description Task < System.Object > Applied theme"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.StatusController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.StatusController.html",
+    "title": "Class StatusController | 3M Serenity Documentation",
+    "keywords": "Class StatusController Inheritance System.Object StatusController Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public sealed class StatusController : ControllerBase Constructors StatusController(IStatusService) Declaration public StatusController(IStatusService statusService) Parameters Type Name Description IStatusService statusService Methods GetAsync() Declaration public Task<StatusApiModel> GetAsync() Returns Type Description Task < StatusApiModel > Ping() Declaration public IActionResult Ping() Returns Type Description IActionResult"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Controllers.UserSettingsController.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Controllers.UserSettingsController.html",
+    "title": "Class UserSettingsController | 3M Serenity Documentation",
+    "keywords": "Class UserSettingsController Inheritance System.Object UserSettingsController Namespace : Mmm.Iot.Config.WebService.Controllers Assembly : cs.temp.dll.dll Syntax public class UserSettingsController : Controller Constructors UserSettingsController(IStorage) Declaration public UserSettingsController(IStorage storage) Parameters Type Name Description IStorage storage Methods GetUserSettingAsync(String) Declaration public Task<object> GetUserSettingAsync(string id) Parameters Type Name Description System.String id Returns Type Description Task < System.Object > SetUserSettingAsync(String, Object) Declaration public Task<object> SetUserSettingAsync(string id, object setting) Parameters Type Name Description System.String id System.Object setting Returns Type Description Task < System.Object >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.DependencyResolution.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.DependencyResolution.html",
+    "title": "Class DependencyResolution | 3M Serenity Documentation",
+    "keywords": "Class DependencyResolution Inheritance System.Object DependencyResolution Namespace : Mmm.Iot.Config.WebService Assembly : cs.temp.dll.dll Syntax public class DependencyResolution : DependencyResolutionBase Methods SetupCustomRules(ContainerBuilder) Declaration protected override void SetupCustomRules(ContainerBuilder builder) Parameters Type Name Description ContainerBuilder builder"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Helpers.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Helpers.html",
+    "title": "Namespace Mmm.Iot.Config.WebService.Helpers | 3M Serenity Documentation",
+    "keywords": "Namespace Mmm.Iot.Config.WebService.Helpers Classes PackagesHelper"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Helpers.PackagesHelper.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Helpers.PackagesHelper.html",
+    "title": "Class PackagesHelper | 3M Serenity Documentation",
+    "keywords": "Class PackagesHelper Inheritance System.Object PackagesHelper Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Helpers Assembly : cs.temp.dll.dll Syntax public class PackagesHelper Methods IsEdgePackage(String) Declaration public static bool IsEdgePackage(string packageContent) Parameters Type Name Description System.String packageContent Returns Type Description System.Boolean VerifyPackageType(String, PackageType) Declaration public static bool VerifyPackageType(string packageContent, PackageType packageType) Parameters Type Name Description System.String packageContent PackageType packageType Returns Type Description System.Boolean"
+  },
+  "api/config/Mmm.Iot.Config.WebService.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.html",
+    "title": "Namespace Mmm.Iot.Config.WebService | 3M Serenity Documentation",
+    "keywords": "Namespace Mmm.Iot.Config.WebService Classes DependencyResolution Program Startup"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsApiModel.html",
+    "title": "Class ActionSettingsApiModel | 3M Serenity Documentation",
+    "keywords": "Class ActionSettingsApiModel Inheritance System.Object ActionSettingsApiModel Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class ActionSettingsApiModel Constructors ActionSettingsApiModel() Declaration public ActionSettingsApiModel() ActionSettingsApiModel(IActionSettings) Declaration public ActionSettingsApiModel(IActionSettings actionSettings) Parameters Type Name Description IActionSettings actionSettings Properties Settings Declaration public IDictionary<string, object> Settings { get; set; } Property Value Type Description IDictionary < System.String , System.Object > Type Declaration public string Type { get; set; } Property Value Type Description System.String"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsListApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.ActionSettingsListApiModel.html",
+    "title": "Class ActionSettingsListApiModel | 3M Serenity Documentation",
+    "keywords": "Class ActionSettingsListApiModel Inheritance System.Object ActionSettingsListApiModel Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class ActionSettingsListApiModel Constructors ActionSettingsListApiModel(List<IActionSettings>) Declaration public ActionSettingsListApiModel(List<IActionSettings> actionSettingsList) Parameters Type Name Description List < IActionSettings > actionSettingsList Properties Items Declaration public List<ActionSettingsApiModel> Items { get; set; } Property Value Type Description List < ActionSettingsApiModel > Metadata Declaration public Dictionary<string, string> Metadata { get; set; } Property Value Type Description Dictionary < System.String , System.String >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.ConfigTypeListApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.ConfigTypeListApiModel.html",
+    "title": "Class ConfigTypeListApiModel | 3M Serenity Documentation",
+    "keywords": "Class ConfigTypeListApiModel Inheritance System.Object ConfigTypeListApiModel Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class ConfigTypeListApiModel Constructors ConfigTypeListApiModel(ConfigTypeListServiceModel) Declaration public ConfigTypeListApiModel(ConfigTypeListServiceModel configTypeList) Parameters Type Name Description ConfigTypeListServiceModel configTypeList Properties ConfigTypes Declaration public string[] ConfigTypes { get; set; } Property Value Type Description System.String [] Metadata Declaration public Dictionary<string, string> Metadata { get; set; } Property Value Type Description Dictionary < System.String , System.String >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupApiModel.html",
+    "title": "Class DeviceGroupApiModel | 3M Serenity Documentation",
+    "keywords": "Class DeviceGroupApiModel Inheritance System.Object DeviceGroupApiModel Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class DeviceGroupApiModel Constructors DeviceGroupApiModel() Declaration public DeviceGroupApiModel() DeviceGroupApiModel(DeviceGroup) Declaration public DeviceGroupApiModel(DeviceGroup model) Parameters Type Name Description DeviceGroup model Properties Conditions Declaration public IEnumerable<DeviceGroupCondition> Conditions { get; set; } Property Value Type Description IEnumerable < DeviceGroupCondition > DisplayName Declaration public string DisplayName { get; set; } Property Value Type Description System.String ETag Declaration public string ETag { get; set; } Property Value Type Description System.String Id Declaration public string Id { get; set; } Property Value Type Description System.String Metadata Declaration public Dictionary<string, string> Metadata { get; set; } Property Value Type Description Dictionary < System.String , System.String > TelemetryFormat Declaration public IEnumerable<DeviceGroupTelemetryFormat> TelemetryFormat { get; set; } Property Value Type Description IEnumerable < DeviceGroupTelemetryFormat > Methods ToServiceModel() Declaration public DeviceGroup ToServiceModel() Returns Type Description DeviceGroup"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupListApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.DeviceGroupListApiModel.html",
+    "title": "Class DeviceGroupListApiModel | 3M Serenity Documentation",
+    "keywords": "Class DeviceGroupListApiModel Inheritance System.Object DeviceGroupListApiModel Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class DeviceGroupListApiModel Constructors DeviceGroupListApiModel(IEnumerable<DeviceGroup>) Declaration public DeviceGroupListApiModel(IEnumerable<DeviceGroup> models) Parameters Type Name Description IEnumerable < DeviceGroup > models Properties Items Declaration public IEnumerable<DeviceGroupApiModel> Items { get; set; } Property Value Type Description IEnumerable < DeviceGroupApiModel > Metadata Declaration public Dictionary<string, string> Metadata { get; set; } Property Value Type Description Dictionary < System.String , System.String >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.html",
+    "title": "Namespace Mmm.Iot.Config.WebService.Models | 3M Serenity Documentation",
+    "keywords": "Namespace Mmm.Iot.Config.WebService.Models Classes ActionSettingsApiModel ActionSettingsListApiModel ConfigTypeListApiModel DeviceGroupApiModel DeviceGroupListApiModel PackageApiModel PackageListApiModel"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.PackageApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.PackageApiModel.html",
+    "title": "Class PackageApiModel | 3M Serenity Documentation",
+    "keywords": "Class PackageApiModel Inheritance System.Object PackageApiModel Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class PackageApiModel : AuditApiModel Constructors PackageApiModel(PackageServiceModel) Declaration public PackageApiModel(PackageServiceModel model) Parameters Type Name Description PackageServiceModel model PackageApiModel(String, String, PackageType, String, String, IList<String>) Declaration public PackageApiModel(string content, string name, PackageType type, string version, string configType, IList<string> tags) Parameters Type Name Description System.String content System.String name PackageType type System.String version System.String configType IList < System.String > tags Properties ConfigType Declaration public string ConfigType { get; set; } Property Value Type Description System.String Content Declaration public string Content { get; set; } Property Value Type Description System.String DateCreated Declaration public string DateCreated { get; set; } Property Value Type Description System.String Id Declaration public string Id { get; set; } Property Value Type Description System.String Name Declaration public string Name { get; set; } Property Value Type Description System.String PackageType Declaration public PackageType PackageType { get; set; } Property Value Type Description PackageType Tags Declaration public IList<string> Tags { get; set; } Property Value Type Description IList < System.String > Version Declaration public string Version { get; set; } Property Value Type Description System.String Methods ToServiceModel() Declaration public PackageServiceModel ToServiceModel() Returns Type Description PackageServiceModel"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Models.PackageListApiModel.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Models.PackageListApiModel.html",
+    "title": "Class PackageListApiModel | 3M Serenity Documentation",
+    "keywords": "Class PackageListApiModel Inheritance System.Object PackageListApiModel Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService.Models Assembly : cs.temp.dll.dll Syntax public class PackageListApiModel Constructors PackageListApiModel(IEnumerable<PackageServiceModel>) Declaration public PackageListApiModel(IEnumerable<PackageServiceModel> models) Parameters Type Name Description IEnumerable < PackageServiceModel > models Properties Items Declaration public IEnumerable<PackageApiModel> Items { get; set; } Property Value Type Description IEnumerable < PackageApiModel > Metadata Declaration public Dictionary<string, string> Metadata { get; set; } Property Value Type Description Dictionary < System.String , System.String >"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Program.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Program.html",
+    "title": "Class Program | 3M Serenity Documentation",
+    "keywords": "Class Program Inheritance System.Object Program Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService Assembly : cs.temp.dll.dll Syntax public class Program Methods BuildWebHost(String[]) Declaration public static IWebHost BuildWebHost(string[] args) Parameters Type Name Description System.String [] args Returns Type Description IWebHost Main(String[]) Declaration public static void Main(string[] args) Parameters Type Name Description System.String [] args"
+  },
+  "api/config/Mmm.Iot.Config.WebService.Startup.html": {
+    "href": "api/config/Mmm.Iot.Config.WebService.Startup.html",
+    "title": "Class Startup | 3M Serenity Documentation",
+    "keywords": "Class Startup Inheritance System.Object Startup Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Mmm.Iot.Config.WebService Assembly : cs.temp.dll.dll Syntax public class Startup Constructors Startup(IConfiguration) Declaration public Startup(IConfiguration configuration) Parameters Type Name Description IConfiguration configuration Properties ApplicationContainer Declaration public IContainer ApplicationContainer { get; } Property Value Type Description IContainer Configuration Declaration public IConfiguration Configuration { get; } Property Value Type Description IConfiguration Methods Configure(IApplicationBuilder, IWebHostEnvironment, IHostApplicationLifetime, AppConfig) Declaration public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime appLifetime, AppConfig config) Parameters Type Name Description IApplicationBuilder app IWebHostEnvironment env IHostApplicationLifetime appLifetime AppConfig config ConfigureServices(IServiceCollection) Declaration public IServiceProvider ConfigureServices(IServiceCollection services) Parameters Type Name Description IServiceCollection services Returns Type Description IServiceProvider"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "PLACEHOLDER | 3M Serenity Documentation",
+    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here! | 3M Serenity Documentation",
+    "keywords": "Add your introductions here!"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Welcome! | 3M Serenity Documentation",
+    "keywords": "Welcome!"
+  },
+  "overview.html": {
+    "href": "overview.html",
+    "title": "Docfx Documentation generator Demo. | 3M Serenity Documentation",
+    "keywords": "Docfx Documentation generator Demo . Agenda for the demo is: Docfx introduction Menu items(TOC) Sub-menu items Topics in article Breadcrumb API documentation UI documentation Overriding default theme with global metadata Title Logo Favicon Footer Enable search Disable breadcrumb Custom theme(template)"
+  },
+  "src/crsl-documentation/functional-tests/intro.html": {
+    "href": "src/crsl-documentation/functional-tests/intro.html",
+    "title": "| 3M Serenity Documentation",
+    "keywords": "Functional tests documentation"
+  },
+  "src/crsl-documentation/functional-tests/ui-tests/change-logo.html": {
+    "href": "src/crsl-documentation/functional-tests/ui-tests/change-logo.html",
+    "title": "| 3M Serenity Documentation",
+    "keywords": "Explain about Change Logo functionality testing process"
+  },
+  "src/crsl-documentation/functional-tests/ui-tests/change-solution-name.html": {
+    "href": "src/crsl-documentation/functional-tests/ui-tests/change-solution-name.html",
+    "title": "| 3M Serenity Documentation",
+    "keywords": "Explain about Change Solution Name functionality testing process"
+  },
+  "src/crsl-documentation/functional-tests/ui-tests/create-new-device.html": {
+    "href": "src/crsl-documentation/functional-tests/ui-tests/create-new-device.html",
+    "title": "| 3M Serenity Documentation",
+    "keywords": "Explain about Create New Device functionality testing process"
+  },
+  "src/crsl-documentation/functional-tests/ui-tests/intro.html": {
+    "href": "src/crsl-documentation/functional-tests/ui-tests/intro.html",
+    "title": "| 3M Serenity Documentation",
+    "keywords": "This documentation helps in understanding the use of each and every UI test. Here are some of the guidelines that are to be followed while creating new test: Here are some things to put down for guidelines for writing UI (and API) tests: Each UI test method should have no dependencies on any other UI tests. Each test stands alone and does its own init and cleanup. When creating UI test classes, derive from UiTestBase Specifies the Trait and Collection attributes. Do not specify these attributes on the class itself. Provides common properties and methods useful for writing UI test code (e.g., WebDriver property) Use the plural form for the test class name E.g., UiTests instead of UiTest Use Pascal-case for all class names, file names, and public element names E.g., UiTests instead of UITests Ensure the namespace name reflects the folder path E.g., UI tests should be in the Mmm.Iot.FunctionalTests.UiTests namespace Perform post-processing on C# code produced by Selenium IDE Use this.WebDriver.Value Replace all waits with this.DefaultWait, unless a different wait time/behavior is needed, in which case define the new wait as a variable in the test method or class so that it can be reused in place of instantiating new wait objects all over the place Omit unnecessary statements/actions (e.g., clicks). Aim to use the fewest possible number of statements/actions to successfully automate the browser for the task at hand. Modify any selectors to omit any/all text visible to end-users. No button names, link names, etc. should be used in selectors because those things are likely to change and break tests if used in selectors. Evaluate selectors to see if the HTML id attribute can be used. If the element being selected does not have an ID attribute, can one be added? If id is unavailable, consider whether name or class attributes are unique and robust enough. Shorten all XPath selectors and/or CSS selectors to omit unnecessary components. Shorter selectors are more robust and more likely to survive changes to the page structure. Call this.WebDriver.Value.Close(); at the end of the test Save one or more screenshots by calling this.SaveScreenshot For the screenshot name, use the name of the test as obtained by the use of the nameof operator When saving multiple screenshots, use the name of the test from nameof concatenated with a hyphen and a short distinguishing phrase or identifier E.g., this.SaveScreenshot($\"{nameof(TenantSwitchingTest)}-BeforeSwitch\"); To generate random strings or numbers, use the TestStack.Dossier library and its AnonymousValueFixture class"
+  },
+  "src/crsl-documentation/intro.html": {
+    "href": "src/crsl-documentation/intro.html",
+    "title": "| 3M Serenity Documentation",
+    "keywords": "CRSL Documentation"
+  },
+  "yml/ConfigService.html": {
+    "href": "yml/ConfigService.html",
+    "title": "Class ConfigService | 3M Serenity Documentation",
+    "keywords": "Class ConfigService Contains methods for calling the config service Constructors ConfigService() Declaration new ConfigService() Functions getDeviceGroups() Returns a the account's device groups Declaration function getDeviceGroups() createDeviceGroup() Creates a new device group Declaration function createDeviceGroup() deleteDeviceGroup() Delete a device group Declaration function deleteDeviceGroup() createPackage() Creates a new package Declaration function createPackage() uploadFirmware() Creates a new package Declaration function uploadFirmware() getPackages() Returns all the account's packages Declaration function getPackages() getFilteredPackages() Returns filtered packages Declaration function getFilteredPackages() getConfigTypes() Returns all the account's packages Declaration function getConfigTypes() deletePackage() Delete a package Declaration function deletePackage()"
+  },
+  "yml/DevicesGrid.html": {
+    "href": "yml/DevicesGrid.html",
+    "title": "Class DevicesGrid | 3M Serenity Documentation",
+    "keywords": "Class DevicesGrid A grid for displaying devices Encapsulates the PcsGrid props Constructors DevicesGrid() Declaration new DevicesGrid() Members onGridReady Get the grid api options Declaration onGridReady onSoftSelectChange Handles soft select props method Declaration onSoftSelectChange onHardSelectChange Handles context filter changes and calls any hard select props method Declaration onHardSelectChange"
+  },
+  "yml/DeviceSimulationService.html": {
+    "href": "yml/DeviceSimulationService.html",
+    "title": "Class DeviceSimulationService | 3M Serenity Documentation",
+    "keywords": "Class DeviceSimulationService Contains methods for calling the device simulation microservice Constructors DeviceSimulationService() Declaration new DeviceSimulationService() Functions getDeviceModelSelectOptions() Returns a list of devicemodels Declaration function getDeviceModelSelectOptions() getSimulatedDevices() Get the list of running simulated devices Declaration function getSimulatedDevices() updateSimulatedDevices() Updates simulated device Declaration function updateSimulatedDevices() toggleSimulation() Toggles simulation status Declaration function toggleSimulation() incrementSimulatedDeviceModel() Gets the simulated device models, increments the given one, then updates on the server Declaration function incrementSimulatedDeviceModel()"
+  },
+  "yml/DiagnosticsService.html": {
+    "href": "yml/DiagnosticsService.html",
+    "title": "Class DiagnosticsService | 3M Serenity Documentation",
+    "keywords": "Class DiagnosticsService Contains methods for calling the diagnostics service Constructors DiagnosticsService() Declaration new DiagnosticsService() Functions logEvent() Posts an event Declaration function logEvent()"
+  },
+  "yml/ExampleGrid.html": {
+    "href": "yml/ExampleGrid.html",
+    "title": "Class ExampleGrid | 3M Serenity Documentation",
+    "keywords": "Class ExampleGrid A grid for displaying example data Encapsulates the PcsGrid props Constructors ExampleGrid() Declaration new ExampleGrid() Members onGridReady Get the grid api options Declaration onGridReady onSoftSelectChange Handles soft select props method. Soft selection happens when the user clicks on the row. Declaration onSoftSelectChange onHardSelectChange Handles context filter changes and calls any hard select props method. Hard selection happens when the user checks the box for the row. Declaration onHardSelectChange"
+  },
+  "yml/ExampleService.html": {
+    "href": "yml/ExampleService.html",
+    "title": "Class ExampleService | 3M Serenity Documentation",
+    "keywords": "Class ExampleService Contains methods for calling the example service Constructors ExampleService() Declaration new ExampleService() Functions getExampleItem() Returns an example item Declaration function getExampleItem() getExampleItems() Returns a list of example items Declaration function getExampleItems() updateExampleItems() Mimics a server call by adding a delay Declaration function updateExampleItems()"
+  },
+  "yml/HttpClient.html": {
+    "href": "yml/HttpClient.html",
+    "title": "Class HttpClient | 3M Serenity Documentation",
+    "keywords": "Class HttpClient A class of static methods for creating ajax requests Constructors HttpClient() Declaration new HttpClient() Functions get(url) Constructs a GET ajax request Declaration function get(url) Parameters Type Name Description string url The url path to the make the request to post(url) Constructs a POST ajax request Declaration function post(url) Parameters Type Name Description string url The url path to the make the request to put(url) Constructs a PUT ajax request Declaration function put(url) Parameters Type Name Description string url The url path to the make the request to patch(url) Constructs a PATCH ajax request Declaration function patch(url) Parameters Type Name Description string url The url path to the make the request to delete(url) Constructs a DELETE ajax request Declaration function delete(url) Parameters Type Name Description string url The url path to the make the request to ajax(url, options, withAuth) Constructs an Ajax request Declaration function ajax(url, options, withAuth) Parameters Type Name Description string url The url path to the make the request to AjaxRequest options See https://github.com/ReactiveX/rxjs/blob/master/src/observable/dom/AjaxObservable.ts boolean withAuth Allows a backdoor to not avoid wrapping auth headers Returns Type Description an Observable of the AjaxReponse createAjaxRequest() A helper method for constructing ajax request objects Declaration function createAjaxRequest()"
+  },
+  "yml/IdentityGatewayService.html": {
+    "href": "yml/IdentityGatewayService.html",
+    "title": "Class IdentityGatewayService | 3M Serenity Documentation",
+    "keywords": "Class IdentityGatewayService Contains methods for calling the Identity Gateway service Constructors IdentityGatewayService() Declaration new IdentityGatewayService() Functions getUsers() Returns a list of users Declaration function getUsers() getAllNonSystemAdmins() Returns all the users who are not currently super users Declaration function getAllNonSystemAdmins() getAllSystemAdmins() Retuns all the current super users in the system Declaration function getAllSystemAdmins() deleteUser() Delete a User Declaration function deleteUser() invite() Invite a new User Declaration function invite() addSP() Add a new Service Principal Declaration function addSP()"
+  },
+  "yml/index.html": {
+    "href": "yml/index.html",
+    "title": "Package | 3M Serenity Documentation",
+    "keywords": "Package Classes ExampleService Contains methods for calling the example service ExampleGrid A grid for displaying example data Encapsulates the PcsGrid props LinkedComponent A helper for creating components with links into the component state Link Accepts either an existing link or a component and state key name Link Links to a part of a component state Validator Contains logic for validating a value HttpClient A class of static methods for creating ajax requests TelemetryService Contains methods for calling the telemetry service IoTHubManagerService Contains methods for calling the Device service IdentityGatewayService Contains methods for calling the Identity Gateway service DiagnosticsService Contains methods for calling the diagnostics service DeviceSimulationService Contains methods for calling the device simulation microservice ConfigService Contains methods for calling the config service Shell The base component for the app shell PcsGrid PcsGrid is a helper wrapper around AgGrid. The primary functionality of this wrapper is to allow easy reuse of the pcs dark grid theme. To see params, read the AgGrid docs. Props: getSoftSelectId: A method that when provided with the a row data object returns an id for that object softSelectId: The ID of the row data to be soft selected onHardSelectChange: Fires when rows are hard selected onSoftSelectChange: Fires when a row is soft selected TODO (stpryor): Add design pagination UsersGrid A grid for displaying users Encapsulates the PcsGrid props DevicesGrid A grid for displaying devices Encapsulates the PcsGrid props Functions createEpicCase() A helper function creating epic scenarios An epic scenario consists of three properties The action type string The action creator The epic that handles actions of given type Declaration function createEpicCase() createEpicScenario() A helper function creating epics from epic cases. An epic scenario takes an object of epic cases and returns the following object: actionTypes: An object of user defined names mapped to action type strings actions: An object of user defined names mapped to action creators epics: An object of user defined names mapped to epic Declaration function createEpicScenario() createReducerScenario() A helper function creating reducers from reducer cases. A reducer scenario takes an object of reducer cases and returns the following object: actionTypes: An object of user defined names mapped to action type strings actions: An object of user defined names mapped to action creators reducers: An object of user defined names mapped to reducer functions Declaration function createReducerScenario() classifyError() A helper function for classifying errors as retryable or not Declaration function classifyError()"
+  },
+  "yml/IoTHubManagerService.html": {
+    "href": "yml/IoTHubManagerService.html",
+    "title": "Class IoTHubManagerService | 3M Serenity Documentation",
+    "keywords": "Class IoTHubManagerService Contains methods for calling the Device service Constructors IoTHubManagerService() Declaration new IoTHubManagerService() Functions getDevices() Returns a list of devices Declaration function getDevices() getModulesFields() Returns a list of all modules message schema fields Declaration function getModulesFields() getJobs() Returns a list of all jobs Declaration function getJobs() submitJob() Submits a job Declaration function submitJob() getJobStatus() Get returns the status details for a particular job Declaration function getJobStatus() provisionDevice() Provisions a device Declaration function provisionDevice() deleteDevice() Deletes a device Declaration function deleteDevice() getDeviceProperties() Returns the account's device group filters Declaration function getDeviceProperties() getDeployments() Returns deployments Declaration function getDeployments() getDeployment() Returns deployment Declaration function getDeployment() getModulesByQuery() Queries EdgeAgent Declaration function getModulesByQuery() getDevicesByQuery() Queries Devices Declaration function getDevicesByQuery() createDeployment() Create a deployment Declaration function createDeployment() deleteDeployment() Delete a deployment Declaration function deleteDeployment() getDeploymentDetails() Returns deployments Declaration function getDeploymentDetails() sendCloudToDeviceMessages() Sends Cloud to device message Declaration function sendCloudToDeviceMessages()"
+  },
+  "yml/Link#Link.html": {
+    "href": "yml/Link#Link.html",
+    "title": "Class Link | 3M Serenity Documentation",
+    "keywords": "Class Link Accepts either an existing link or a component and state key name Constructors Link() Accepts either an existing link or a component and state key name Declaration new Link()"
+  },
+  "yml/Link.html": {
+    "href": "yml/Link.html",
+    "title": "Class Link | 3M Serenity Documentation",
+    "keywords": "Class Link Links to a part of a component state Constructors Link() Declaration new Link() Members to Links to property in the component state Declaration to map Adds a function for mapping an input value to a new value Declaration map getLinkedChildren A helper method for array state properties Declaration getLinkedChildren forkStateChange Used to create a new Link instance using the state property hierarchy of an existing instance Declaration forkStateChange Functions set() Updates the value of the component state property the Link is connected to. Declaration function set() withValidator() Allows the link to use predefined validator logic Declaration function withValidator()"
+  },
+  "yml/LinkedComponent.html": {
+    "href": "yml/LinkedComponent.html",
+    "title": "Class LinkedComponent | 3M Serenity Documentation",
+    "keywords": "Class LinkedComponent A helper for creating components with links into the component state Constructors LinkedComponent() Declaration new LinkedComponent()"
+  },
+  "yml/PcsGrid.html": {
+    "href": "yml/PcsGrid.html",
+    "title": "Class PcsGrid | 3M Serenity Documentation",
+    "keywords": "Class PcsGrid PcsGrid is a helper wrapper around AgGrid. The primary functionality of this wrapper is to allow easy reuse of the pcs dark grid theme. To see params, read the AgGrid docs. Props: getSoftSelectId: A method that when provided with the a row data object returns an id for that object softSelectId: The ID of the row data to be soft selected onHardSelectChange: Fires when rows are hard selected onSoftSelectChange: Fires when a row is soft selected TODO (stpryor): Add design pagination Constructors PcsGrid() Declaration new PcsGrid() Members onGridReady Save the gridApi locally on load Declaration onGridReady refreshRows Refreshes the grid to update soft select CSS states Forces and update event Declaration refreshRows onSelectionChanged When a row is hard selected, try to fire a hard select event, plus any props callbacks Declaration onSelectionChanged onRowClicked When a row is clicked, select the row unless a soft select link was clicked Declaration onRowClicked Functions componentWillReceiveProps() When new props are passed in, check if the soft select state needs to be updated Declaration function componentWillReceiveProps()"
+  },
+  "yml/Shell.html": {
+    "href": "yml/Shell.html",
+    "title": "Class Shell | 3M Serenity Documentation",
+    "keywords": "Class Shell The base component for the app shell Constructors Shell() Declaration new Shell()"
+  },
+  "yml/TelemetryService.html": {
+    "href": "yml/TelemetryService.html",
+    "title": "Class TelemetryService | 3M Serenity Documentation",
+    "keywords": "Class TelemetryService Contains methods for calling the telemetry service Constructors TelemetryService() Declaration new TelemetryService() Functions getStatus() Returns the status properties for the telemetry service Declaration function getStatus() getRules() Returns a list of rules Declaration function getRules() createRule() creates a new rule Declaration function createRule() updateRule() updates an existing rule Declaration function updateRule() getAlerts() Returns a list of alarms (all statuses) Declaration function getAlerts() getActiveAlerts() Returns a list of active alarms (open or ack) Declaration function getActiveAlerts() getAlertsForRule() Returns a list of alarms created from a given rule Declaration function getAlertsForRule() updateAlertStatus() Returns a list of alarms created from a given rule Declaration function updateAlertStatus() getTelemetryByMessages() Returns a telemetry events Declaration function getTelemetryByMessages()"
+  },
+  "yml/UsersGrid.html": {
+    "href": "yml/UsersGrid.html",
+    "title": "Class UsersGrid | 3M Serenity Documentation",
+    "keywords": "Class UsersGrid A grid for displaying users Encapsulates the PcsGrid props Constructors UsersGrid() Declaration new UsersGrid() Members onGridReady Get the grid api options Declaration onGridReady onSoftSelectChange Handles soft select props method Declaration onSoftSelectChange onHardSelectChange Handles context filter changes and calls any hard select props method Declaration onHardSelectChange"
+  },
+  "yml/Validator.html": {
+    "href": "yml/Validator.html",
+    "title": "Class Validator | 3M Serenity Documentation",
+    "keywords": "Class Validator Contains logic for validating a value Constructors Validator() Declaration new Validator() Functions check() Adds a checking function to the validator list If the function returns false, validation fails Declaration function check() reject() Adds a rejection function to the rejector list If the function returns false, the value is rejected Declaration function reject()"
+  }
+}
